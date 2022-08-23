@@ -26,4 +26,4 @@ phases:
       - printf '[{"name":"bang-Auth-container","imageUri":"%s"}]' 860061945305.dkr.ecr.ap-south-1.amazonaws.com/bang-auth-repo-ecr-2:Auth > taskdefinition.json
 
 artifacts:
-  files: authorization-service/taskdefinition.json
+  files: taskdefinition.json
